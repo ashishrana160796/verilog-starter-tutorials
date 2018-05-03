@@ -1,0 +1,4 @@
+# compiled files not to be uploaded
+
+src/vcd/
+src/a.out
