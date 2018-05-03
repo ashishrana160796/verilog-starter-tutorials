@@ -59,7 +59,10 @@ ex 2 : module posmap(q,clk,rst)
 
 * $display vs $monitor : $dispay is used to display immediate value of variables. It gets executed in active region. $monitor gets executed whenever the value of the given variable changes in it. It gets executed in the postponed region. Monitor is required only once to be written.
 
-* 
+#### Note 
+
+More relevant points to be added.
+
 ---
 
 #### Regular Codes
