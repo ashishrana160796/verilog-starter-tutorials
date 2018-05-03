@@ -83,7 +83,7 @@ ex 2 : module posmap(q,clk,rst)
 
 * ![Blocking Statements](src/Blocking.v) and ![Non-Blocking Statements](src/NonBlocking.v)
 * ![Seven Segment Display](src/SevenSegment.v)
-* ![Mealy '000' Sequence Machine](src/MealyOOOSequence.v) and [Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
+* ![Mealy '000' Sequence Machine](src/MealyOOOSequence.v) and ![Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
 * ![Moore '000' Sequence Machine](src/MooreOOOSequence.v)
 * ![Traffic Lights - Two Lights/4-Point Crossing](src/TrafficLightsFourWay.v)
 
