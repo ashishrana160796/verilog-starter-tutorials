@@ -65,7 +65,7 @@ ex 2 : module posmap(q,clk,rst)
 #### Regular Codes
 
 * ![Data Flow Modelling](src/DataFlowModelling.v) and ![Logic Gate Modelling](src/LogicGateModelling.v)
-* ![Asynchronous and Synchronous D-FlipFlop](src/AsyncAndSyncDFlip Flop.v)
+* ![Asynchronous and Synchronous D-FlipFlop](src/AsyncAndSyncDFlipFlop.v)
 * ![Four Bit Counter](src/FourBitCounter.v)
 * ![Decoder 3x8](src/Decoder3x8.v)
 * ![Encoder 4x2](src/Encoder4x2.v)
