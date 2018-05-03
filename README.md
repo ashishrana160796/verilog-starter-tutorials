@@ -62,15 +62,32 @@ ex 2 : module posmap(q,clk,rst)
 * 
 ---
 
-### Code For Concepts
+#### Regular Codes
 
-* ![Blocking Statements](src/Blocking.v) and ![Non-Blocking Statements](src/NonBlocking.v)
-* ![Seven Segment Display](src/SevenSegment.v)
-* ![Mealy 'OOO' Sequence Machine](src/MealyOOOSequence.v) and [Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
-* ![Moore '000' Sequence Machine](src/MooreOOOSequence.v)
+* ![Data Flow Modelling](src/DataFlowModelling.v) and ![Logic Gate Modelling](src/LogicGateModelling.v)
+* ![Asynchronous and Synchronous D-FlipFlop](src/AsyncAndSyncDFlip Flop.v)
+* ![Four Bit Counter](src/FourBitCounter.v)
+* ![Decoder 3x8](src/Decoder3x8.v)
+* ![Encoder 4x2](src/Encoder4x2.v)
+* ![DeMux 1x4](src/DeMux1x4.v)
+* ![Mux 2x1](src/Mux2x1.v)
+* ![SR Flip Flop](src/SRFlipFlop.v)
+* ![JK Flip Flop](src/JKFlipFlop.v)
+* ![T Flip Flop](src/TFlipFlop.v)
+* ![D Flip Flop](src/DFlipFlop.v)
+
 
 ---
 
-### Minor Case Study
+#### Code For Concepts
 
-* ![Traffic Lights - Two Lights](src/TrafficLightsTwo.v)
+* ![Blocking Statements](src/Blocking.v) and ![Non-Blocking Statements](src/NonBlocking.v)
+* ![Seven Segment Display](src/SevenSegment.v)
+* ![Mealy '000' Sequence Machine](src/MealyOOOSequence.v) and [Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
+* ![Moore '000' Sequence Machine](src/MooreOOOSequence.v)
+* ![Traffic Lights - Two Lights/4-Point Crossing](src/TrafficLightsFourWay.v)
+
+---
+
+#### DYI Codes
+* Half Subtractor, Full Subtractor, Half Adder, Full Adder : Using DataFlow, LogicGate Modelling, case statements.
