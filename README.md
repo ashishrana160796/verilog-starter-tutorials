@@ -4,6 +4,13 @@ This is a tutorial repository to learn verilog easily with all the basics that a
 
 ---
 
+#### Installation For Linux
+
+* sudo apt-get update
+* sudo apt-get install verilog
+* sudo apt-get install gtkwave
+
+---
 #### Introduction
 
 Verilog is a hardware language. Examples of such languages are VHDL( VHSIC(Very High Speed Integrated Circuit) HDL).
@@ -40,14 +47,14 @@ Integers, Arrays, Memories, Parameters, Strings are few other datatypes.
 * Module Instantiation : Process of connecting one module to another.   
 Its subparts are Positional Mapping and Nomenclature Based Mapping.
 ```
-ex 1 : module posmap(q,clk,rst)
+ex 1 : module pos_map(q,clk,rst)
        output[1:0] q;
        input clk, rst;
        tflipflop lab0(q[0], clk, rst);
        tflipflop lab1(q[1], clk, rst);
        end
        
-ex 2 : module posmap(q,clk,rst)
+ex 2 : module nom_map(q,clk,rst)
        output[1:0] q;
        input clk, rst;
        tflipflop lab0(.q(q[0]), .clk(clk), .rst(rst));
@@ -92,5 +99,13 @@ More relevant points to be added.
 
 ---
 
+#### Case-Study
+
+* ![Biometric Autherization : Authorization happens only when hashed value is matched for particular input](src/BiometricsImplement.v)
+
+---
 #### DYI Codes
+
 * Half Subtractor, Full Subtractor, Half Adder, Full Adder : Using DataFlow, LogicGate Modelling, case statements.
+* Master-Slave JK Flip-Flop : Truth table for master and slave latch both.
+
