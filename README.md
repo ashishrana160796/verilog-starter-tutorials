@@ -104,7 +104,7 @@ More relevant points to be added.
 * ![Biometric Autherization : Authorization happens only when hashed value is matched for particular input](src/BiometricsImplement.v)
 
 ---
-#### DYI Codes
+#### DIY Codes
 
 * Half Subtractor, Full Subtractor, Half Adder, Full Adder : Using DataFlow, LogicGate Modelling, case statements.
 * Master-Slave JK Flip-Flop : Truth table for master and slave latch both.
