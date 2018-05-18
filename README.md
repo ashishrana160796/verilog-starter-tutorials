@@ -93,8 +93,8 @@ More relevant points to be added.
 
 * ![Blocking Statements](src/Blocking.v) and ![Non-Blocking Statements](src/NonBlocking.v)
 * ![Seven Segment Display](src/SevenSegment.v)
-* ![Mealy '000' Sequence Machine](src/MealyOOOSequence.v) and ![Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
-* ![Moore '000' Sequence Machine](src/MooreOOOSequence.v)
+* ![Mealy '000' Sequence Machine](src/Mealy000Sequence.v) and ![Mealy '1001' Sequence Machine](src/Mealy1001Sequence.v)
+* ![Moore '000' Sequence Machine](src/Moore000Sequence.v)
 * ![Traffic Lights - Two Lights/4-Point Crossing](src/TrafficLightsFourWay.v)
 
 ---
@@ -104,7 +104,7 @@ More relevant points to be added.
 * ![Biometric Autherization : Authorization happens only when hashed value is matched for particular input](src/BiometricsImplement.v)
 
 ---
-#### DYI Codes
+#### DIY Codes
 
 * Half Subtractor, Full Subtractor, Half Adder, Full Adder : Using DataFlow, LogicGate Modelling, case statements.
 * Master-Slave JK Flip-Flop : Truth table for master and slave latch both.
